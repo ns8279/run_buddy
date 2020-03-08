@@ -1,12 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #39a6b2;
     
+ }
+
+ section {
+     padding: 60px;
  }
  /*apply styling to header*/
  /* 20px top and botton, 35px left and right*/
@@ -46,4 +50,76 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/*hero CSS*/
+.hero {
+    padding: 60px;
+    background-image: url("../images/hero_bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    border: solid 3px #024e76;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+.hero-form p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.hero-form label {
+    margin: 0 5px;
+}
+.hero-form button {
+    background-color: #024e76;
+    color: #fce138;
+    font-size: 16px;
+    padding: 7px 15px;
+    border: none;
+
+}
+/*hero CSS end*/
+
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+ footer div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+    
+ }
+
+ footer a {
+     color: #024e76;
+ }
 
