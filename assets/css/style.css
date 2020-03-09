@@ -188,11 +188,19 @@ header nav ul li a {
     font-size: 26px;
     margin-bottom: 25px
 }
-.trainer-bio {
+.trainer-bio p {
     font-size: 17px;
     line-height: 1.3;
 }
 
+/*contact information*/
+.contact {
+    text-align: center;
+    background: #024e76;
+}
+.contact h2 {
+    color: #fce138;
+}
 
  /*footer CSS*/
 footer {
