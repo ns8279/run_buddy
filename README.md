@@ -11,3 +11,5 @@ https://ns8279.github.io/run_buddy/
 
 ## Contribution
 Made with <3 by Nirupama Sundararaman
+
+# Run Buddy Inc.
