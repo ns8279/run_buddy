@@ -7,7 +7,7 @@ A website that offers fitness training services
 *CSS
 
 ## Website
-https://
+https://ns8279.github.io/run_buddy/
 
 ## Contribution
 Made with <3 by Nirupama Sundararaman
