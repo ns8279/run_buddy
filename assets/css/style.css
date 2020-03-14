@@ -120,6 +120,22 @@ header nav ul li a {
 }
  
   /*hero CSS end*/
+
+/* General CSS */
+
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.flex-row{
+    display: flex;
+}
+.intro p {
+    text-align: center;
+}
+
  /*what we do CSS*/
 #what-we-do {
     text-align: center;
@@ -133,7 +149,7 @@ header nav ul li a {
     display:inline-block;
 }
 .steps {
-    text-align: center;
+    
     background: #fce138
 }
   /*end what we do CSS*/
@@ -160,12 +176,12 @@ header nav ul li a {
 }
   /*what you do CSS and what we do common CSS*/
 .section-title {
-    
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
+    padding-bottom: 20px;
     border-bottom: 3px solid;
 }
 .primary-border {
@@ -177,7 +193,7 @@ header nav ul li a {
 
 /* Meet your trainers CSS*/
 .trainers {
-    text-align: center;
+   
 }
 .trainer{
     width: 900px;
@@ -195,12 +211,7 @@ header nav ul li a {
     float: left;
     width: 65%;
 }
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-align: right;
-}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -217,7 +228,7 @@ header nav ul li a {
 
 /*contact information*/
 .contact {
-    text-align: center;
+    
     background: #024e76;
 }
 .contact h2 {
