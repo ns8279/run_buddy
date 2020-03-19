@@ -4,11 +4,6 @@
     box-sizing: border-box;
     
 }
-:root{
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2; 
-}
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #39a6b2;
@@ -17,6 +12,11 @@ body {
 
  section {
      padding: 60px;
+ }
+ :root {
+     --primary-color: #fce138;
+     --secondary-color: #024e76;
+     --tertiary-color: #39a6b2;
  }
   /*apply styling to header*/
 /* 20px top and botton, 35px left and right*/
@@ -33,7 +33,6 @@ body {
      background-size: cover;
      background-position: 80%;
      background-attachment: fixed;
-     z-index: 9999;
  }
 
 header h1 {
@@ -273,9 +272,48 @@ header nav ul li a:hover {
     color: #fce138;
     
 }
-.trainer img {
+.trainer-1 {
+    background-image: url("../images/trainer-1.jpg");
+    background-size: cover;
+}
+.trainer-2 {
+    background-image: url("../images/trainer-2.jpg");
+    background-size: cover;
+}
+.trainer-3 {
+    background-image: url("../images/trainer-3.jpg");
+    background-size: cover;
+}
+
+.trainer-img {
     width: 100%;
-    float: left;
+    min-height: 300px;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    position: relative;
+   
+    
+}
+.trainer-img::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(252, 225,56,0.3), #024e76);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.trainer-img h3 {
+    position: relative;
+    z-index: 9999;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.trainer-img h4 {
+    position: relative;
+    z-index: 9999;
+    font-size: 22px;
 }
 .trainer-bio {
     padding: 25px;
